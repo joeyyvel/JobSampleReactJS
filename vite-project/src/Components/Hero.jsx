@@ -4,7 +4,6 @@ import "./HeroStyles.css";
 function Hero(props) {
   return (
     <>
-      <div style={{ backgroundColor: "blue" }}>hero page!</div>
       {/*  display image  */}
       <div className={props.cName}>
         <img src={props.heroImage} alt="Hero image" />

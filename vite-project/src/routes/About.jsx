@@ -8,10 +8,13 @@ function About() {
   return (
     <>
       <Navbar />
-      <div>
-        <h1>about page</h1>
-      </div>
-      <Hero cName="hero-aboutPage" heroImage={mountain1} title="About" />
+
+      <Hero
+        cName="hero-aboutPage"
+        btnClass="hide"
+        heroImage={mountain1}
+        title="About"
+      />
       <AboutUs />
     </>
   );
