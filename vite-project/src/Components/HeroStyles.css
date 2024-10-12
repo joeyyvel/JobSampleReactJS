@@ -1,0 +1,40 @@
+:root {
+    --pageTitle: #fff:
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+/*--------About page component inserted------*/
+
+.hero-aboutPage{
+    width: 100%;
+    height: 70vh;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*-----------all title @ route folder / All pages connected------------------*/
+.hero-text h1{
+    font-size: 3rem;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    color: var(--pageTitle);
+    text-align: center;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.popDestination {
+    color: rgb(60, 60, 122);
+    margin-top: 9rem;
+    font-weight: bold;
+}
